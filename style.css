@@ -4,6 +4,9 @@ body {
   margin: 60px;
   padding: 10px 20px;
 }
+h1 {
+  text-align: center;
+}
 h2 {
     color: #8892EA;
     font-family: arial;
@@ -21,4 +24,5 @@ ul {
 }
 p {
   font-size: 14px;
+  text-align: center;
 }
