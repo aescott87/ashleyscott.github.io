@@ -18,11 +18,11 @@ h2 {
 }
 h3 {
   font-size: 20px;
-  line-height: 2px;
+  margin: 0;
 }
 h4 {
   font-size: 15px;
-  line-height: 1px;
+  margin: 0;
 }
 ul {
   color: #52535A;
