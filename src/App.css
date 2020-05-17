@@ -1,0 +1,23 @@
+.App {
+  text-align: center;
+  background-color: rgb(169, 101, 233);
+  color: white;
+}
+
+.jumbotron {
+  color: black;
+}
+
+.project-groupings {
+  color: black;
+  margin: 40px;
+}
+
+.project-info {
+  background-color: rgb(238, 235, 235);
+}
+
+.button {
+  margin: 5px;
+}
+
