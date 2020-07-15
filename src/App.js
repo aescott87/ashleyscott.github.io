@@ -90,14 +90,48 @@ class App extends Component {
               <Card.Body className="project-info">
                 <Card.Title>Add a Retailer</Card.Title>
                 <Card.Text>
-                  The user can add a retailer that is not currently listed but offers one or more of the types of sizing available to search. User must add a retailer name, website, sizes carried, and where the retailer can be shopped.
+                  The user can add a retailer that is not currently listed but offers one or more of the types of sizing available to search. 
+                  User must add a retailer name, website, sizes carried, and where the retailer can be shopped.
       </Card.Text>
               </Card.Body>
             </Card>
           </CardDeck>
-          <h2>In Progress: Client Project</h2>
-          <p>As part of my final project with Prime Digital Academy, I will be collaborating with members of my cohort to help a local organization.
-            I am looking forward to applying my new skillset and working with my peers!</p>
+          <h2>Group Client Project: Maximum 1™ Life App</h2>
+          <p>As part of my final project with Prime Digital Academy, I along with a group of my peers developed an application for a local business. 
+            The Life App allows users to create self-reflection journals referred to as "trees" to work through problematic behaviors and/or thought patterns.
+            The app was developed with React, Redux, JavaScript, Node.js, and PostgreSQL and was styled with React Bootstrap.</p>
+            <Button className="button" variant="light" href="https://shrouded-spire-40019.herokuapp.com/#/home">View the App</Button>
+          <Button className="button" variant="light" href="https://github.com/aescott87/Maximum-1-Project">Life App GitHub Repo</Button>
+          <CardDeck className="project-groupings">
+            <Card>
+              <Card.Img variant="top" src="./images/phases-page-view.png" />
+              <Card.Body className="project-info">
+                <Card.Title>Linear Progression</Card.Title>
+                <Card.Text>
+                  Users navigate through each phase of their self-reflection in a linear fashion. 
+                  Steps remained locked until the previous one is completed to ensure the user navigates the self-reflection as intended.
+      </Card.Text>
+              </Card.Body>
+            </Card>
+            <Card>
+              <Card.Img variant="top" src="./images/step-view.png" />
+              <Card.Body className="project-info">
+                <Card.Title>Completing Each Step</Card.Title>
+                <Card.Text>
+                  Users view each step individually, with a description of the step and helpful hints included to guide the user on their self-reflection.
+                </Card.Text>
+              </Card.Body>
+            </Card>
+            <Card>
+              <Card.Img variant="top" src="./images/mobile-view.png" />
+              <Card.Body className="project-info">
+                <Card.Title>Mobile Capability</Card.Title>
+                <Card.Text>
+                  Built with Bootstrap, the app is designed to be functional for web or mobile use.
+      </Card.Text>
+              </Card.Body>
+            </Card>
+          </CardDeck>
         </>
       </div>
     );
