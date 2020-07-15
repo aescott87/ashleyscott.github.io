@@ -132,6 +132,11 @@ class App extends Component {
               </Card.Body>
             </Card>
           </CardDeck>
+          <h2>In Progress: Happy Trails</h2>
+          <p>Currently, I am developing a hiking application called Happy Trails. 
+            This app is connected to the Google Maps API to allow users to search for hiking trails in their area. 
+            Users can save trails and add notes for each trail.</p>
+          <Button className="button" variant="light" href="https://github.com/aescott87/happy-trails">Happy Trails GitHub Repo</Button>
         </>
       </div>
     );
