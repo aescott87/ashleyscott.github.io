@@ -122,15 +122,6 @@ class App extends Component {
                 </Card.Text>
               </Card.Body>
             </Card>
-            <Card>
-              <Card.Img variant="top" src="./images/mobile-view.png" />
-              <Card.Body className="project-info">
-                <Card.Title>Mobile Capability</Card.Title>
-                <Card.Text>
-                  Built with Bootstrap, the app is designed to be functional for web or mobile use.
-      </Card.Text>
-              </Card.Body>
-            </Card>
           </CardDeck>
           <h2>In Progress: Happy Trails</h2>
           <p>Currently, I am developing a hiking application called Happy Trails. 
